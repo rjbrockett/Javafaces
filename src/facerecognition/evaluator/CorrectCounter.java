@@ -16,8 +16,8 @@ import facerecognition.javafaces.MatchResult;
 
 	public class CorrectCounter {
 	
-	static FaceRec frec;
-	static double totalruns=10;
+	static FaceRec frec; //CHANGE between FaceRec and FaceRecFirst to choose which to test
+	static double totalruns=10; //CHANGE THIS NUMBER TO SELECT NUMBER OF RUNS AND HIGHEST NUMBER OF EIGENFACES USED
 	static double totalacc;
 	static List<String>probefiles;
 	static String numbersList="12334567890";
@@ -25,7 +25,7 @@ import facerecognition.javafaces.MatchResult;
 	
 
 	public static void main(String[] args){
-		frec=new FaceRec();
+		frec=new FaceRec(); //CHANGE between FaceRec and FaceRecFirst to choose which to test
 		try {
 			probefiles=frec.parseDirectory("", "png"); //put probes directory path in quotes
 		} catch (FaceRecError e) {
