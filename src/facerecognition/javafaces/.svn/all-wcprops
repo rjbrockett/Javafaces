@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/src/facerecognition/javafaces
+END
+ImageDistanceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/src/facerecognition/javafaces/ImageDistanceInfo.java
+END
+Matrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/src/facerecognition/javafaces/Matrix2D.java
+END
+MatchResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8/trunk/src/facerecognition/javafaces/MatchResult.java
+END
+EigenvalueDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/src/facerecognition/javafaces/EigenvalueDecomposition.java
+END
+FaceRecError.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8/trunk/src/facerecognition/javafaces/FaceRecError.java
+END
+FaceRec.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/11/trunk/src/facerecognition/javafaces/FaceRec.java
+END
+FaceBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/src/facerecognition/javafaces/FaceBundle.java
+END

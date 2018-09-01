@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/src/facerecognition/gui
+END
+FaceRecView.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/FaceRecView.java
+END
+ImagePreview.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/ImagePreview.java
+END
+SimpleExceptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/SimpleExceptionHandler.java
+END
+ImageDisplayPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/ImageDisplayPanel.java
+END
+FaceRecMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/FaceRecMain.java
+END
+ThumbNailView.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/trunk/src/facerecognition/gui/ThumbNailView.java
+END
