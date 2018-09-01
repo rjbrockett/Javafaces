@@ -1,4 +1,4 @@
-//This is the original "FaceRecMain.java", but I modified that one. This is the original code.
+//This is the original "FaceRecMain.java", but geared to run FaceRecFirst (For convenience of not having to change a lot of stuff).
 
 package facerecognition.gui;
 
@@ -19,7 +19,7 @@ public class FaceRecMainFirst{
 		EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-            	FaceRecView view=new FaceRecView("FACE RECOGNITION OPENING DEMO");
+            	FaceRecView view=new FaceRecView("FACE RECOGNITION");
             	//FaceRec model=new FaceRec();
             	FaceRecFirst model=new FaceRecFirst();
             	new SimpleControllerFirst(view,model);
