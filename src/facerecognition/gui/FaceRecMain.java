@@ -1,3 +1,5 @@
+//This code is geared to run FaceRec
+
 package facerecognition.gui;
 
 
