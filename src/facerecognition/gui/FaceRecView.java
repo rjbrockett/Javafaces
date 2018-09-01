@@ -1,3 +1,5 @@
+//to set a filepath to choose images go to lines 143 and 157
+
 package facerecognition.gui;
 
 import java.awt.Color;
@@ -138,7 +140,7 @@ public class FaceRecView extends JFrame implements ActionListener {
 		int returnVal = 99;
 		if(evt.getSource() == fileChooseButton){
 			selectedFileName.setText("");
-			filechooser=new JFileChooser("/Users/rjbrockett/Documents/workspace/Javafaces");
+			filechooser=new JFileChooser(""); //put preferred path in quotes
 			FileNameExtensionFilter filter = new FileNameExtensionFilter(
 			        "Images", "jpg","JPG","GIF", "gif","JPEG","png","PNG");
 			filechooser.setFileFilter(filter);
@@ -152,7 +154,7 @@ public class FaceRecView extends JFrame implements ActionListener {
 			}
 		}else if(evt.getSource() == dirChooseButton){
 			selectedDirName.setText("");
-			dirchooser = new JFileChooser("/Users/rjbrockett/Documents/workspace/Javafaces");
+			dirchooser = new JFileChooser(""); //Put preferred path in quotes
 			dirchooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 			returnVal = dirchooser.showDialog(FaceRecView.this,"select a directory");
 			if (returnVal == JFileChooser.APPROVE_OPTION){
