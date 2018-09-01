@@ -1,3 +1,8 @@
+/////THE IDEA OF THIS CLASS IS THAT IT RUNS A TYPE OF FACEREC (EITHER MINE OR THE ORIGINAL)
+/////FOR EACH FACE IN THE "PROBES" FOLDER A NUMBER OF TIMES EQUAL TO TOTALRUNS, INCREMENTING 
+/////THE NUMBER OF EIGENVECTORS EACH TIME AND PRINTS THE ACCURACY EACH TIME. HELPS WITH COMPARING.
+//go to lines 30 and 72 to choose preferred directories for testing
+
 package facerecognition.evaluator;
 
 import java.io.File;
@@ -14,17 +19,15 @@ import facerecognition.javafaces.MatchResult;
 	static FaceRec frec;
 	static double totalruns=10;
 	static double totalacc;
-	static List<String>probefiles;//= new ArrayList<String>();
+	static List<String>probefiles;
 	static String numbersList="12334567890";
-	/////THE IDEA OF THIS CLASS IS THAT IT RUNS A TYPE OF FACEREC (EITHER MINE OR THE ORIGINAL)
-	/////FOR EACH FACE IN THE "PROBES" FOLDER A NUMBER OF TIMES EQUAL TO TOTALRUNS, INCREMENTING 
-	/////THE NUMBER OF EIGENVECTORS EACH TIME AND PRINTS THE ACCURACY EACH TIME. HELPS WITH COMPARING.
+
 	
 
 	public static void main(String[] args){
 		frec=new FaceRec();
 		try {
-			probefiles=frec.parseDirectory("/Users/rjbrockett/Documents/workspace/Javafaces/probes", "png");
+			probefiles=frec.parseDirectory("", "png"); //put probes directory path in quotes
 		} catch (FaceRecError e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -66,7 +69,7 @@ import facerecognition.javafaces.MatchResult;
 		for(int i=0; i<probeslen; i++){ //get length of dir from facerec
 			File selectedFile= new File(probefiles.get(i));
 			//System.out.println(selectedFile.getPath());
-			File selectedFolder= new File("/Users/rjbrockett/Documents/workspace/Javafaces/gallery");
+			File selectedFolder= new File(""); //Put gallery directory path in quotes
 			MatchResult choice = frec.processSelections(selectedFile.getPath(),selectedFolder.getPath(), numvectors+"", ""+1+numvectors*0.1);
 			String matchName= nameCleaner(choice.getMatchFileName());
 			String name=nameCleaner(selectedFile.getPath());
